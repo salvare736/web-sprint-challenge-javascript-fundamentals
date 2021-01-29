@@ -18,7 +18,7 @@ myFunction();
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
 
-
+// The nested function is able to access the variable internal by reaching up past its scope via closure to find the variable it's looking for. The only thing it cannot do is reach down passed its scope.
 
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
