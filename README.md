@@ -27,13 +27,26 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach() is a different way to conduct a loop through an array (as opposed to the traditional for loop) that allows you to execute some kind of command at each index. .map() is an array method that returns a new array consisting of the desired data from an existing array (the latter is not mutated).
+
 2. Explain the difference between a callback and a higher order function.
+
+A higher order function takes in a callback function as an argument. In other words, the callback is the function within the higher order function.
 
 3. What is closure?
 
+A closure occurs when something must reach up passed its scope in order to retrieve some information from the outside. This only occurs from a narrower scope reaching up to a broader scope, not the other way around.
+
 4. Describe the four rules of the 'this' keyword.
 
+- In window binding, the 'this' keyword refers to the topmost layer, or the global binding. Window binding doesn't have much practical use for coding purposes, to my knowledge.
+- In implicit binding, the 'this' keyword is used in the calling of a function, and it refers to what is left of the dot. Implicit binding is the most common usage of 'this'.
+- In explicit binding, the 'this' keyword is used in the context of a 'call' or 'apply' method, and it refers directly to what you stipulate when you run said method.
+- In new binding, the 'this' keyword is used in a constructor function, and it refers to the instanced object that is to be created by said constructor function.
+
 5. Why do we need super() in an extended class?
+
+super() is needed in order to 'link' the child class that is extending the parent class. Without super(), the child class will not inherit what it's supposed to from its intended parent.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
